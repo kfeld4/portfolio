@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "js/portfolio.js"></script>
+    <title>Kevin's Portfolio</title>
+  </head>
+  <body>
+    <a class="skip" href="#skip">Skip to Main Content</a>
+    <nav class="topnav">
+      <a href="index.html"><img src="images/main.jpg" alt="" id="main"></a>
+      <div class="dropdown">
+        <button class="dropbtn">Work <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="fedex.html">FedEx Services</a>
+          <a href="ux.html">TravelPro</a>
+          <a href="gallery.html">Design Gallery</a>
+        </div>
+      </div>
+      <a href="bio.html" id="current" id="last">Bio</a>
+      <a href="resume.html"id="last">Resume</a>
+    </nav>
+    <main id="skip">
+      <div class="container-bio">
+        <div class="bio-image">
+          <img src="images/bio.jpg" alt=""/>
+        </div>
+        <div class="bio-text">
+            <h2><mark>Hi!</mark></h2>
+            <p>My name is Kevin Feldman and I am a senior in the <span class="bold">Univeristy of Michigan's School of Information</span>, studying Data Analytics & UX Design. </p>
+            <p>Upon graduation in May, I will be moving to Texas to work for <span class="bold">PMG Digital Agency</span>, where I will be learning the ins and outs of digital marketing & advertising.</p>
+            <p>The following portfolio oultines work from across my  course curriculum, internship experience, freelance design work and more. Feel free to reach out if you have any questions. <span class="bold">Go Blue!</span></p>
+        </div>
+      </div>
+      <form action="https://formspree.io/mvoadgbj" method="POST">
+      <fieldset>
+         <div class = "contact">
+            <h1>Contact Me</h1>
+            <label for ="name">Name</label>
+            <input type="text" id ="name" name="name" required />
+            <label for ="pass">Email</label>
+            <input type="email" id="email" name ="email" required/>
+            <label for ="addr">Message</label>
+            <textarea id = "messg" placeholder="Write something.."></textarea>
+            <input type="submit" value="Submit">
+         </div>
+      </fieldset>
+      </form>
+    <footer>
+      <a onclick="myScroll()"><img id="backup" src="images/backup.jpg" alt=""></a>
+      <p>Kevin Feldman - SI 339 - Personal Portfolio</p>
+    </footer>
+    </main>
+  </body>
+</html>
