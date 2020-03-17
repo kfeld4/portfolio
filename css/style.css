@@ -138,20 +138,20 @@
   justify-content: center;
 }
 
-#index-button {
+#index-button1, #index-button2, #index-button3 {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-#index-button a {
+#index-button1 a, #index-button2 a, #index-button3 a  {
   position: relative;
   transition: all .45s ease-Out;
   text-decoration: none;
   color: black;
 }
 
-#translate {
+#translate1, #translate2, #translate3 {
   transform: rotate(50deg);
   width: 100%;
   height: 250%;
@@ -162,7 +162,15 @@
   transition: all .3s ease-Out;
 }
 
-#index-button:hover #translate {
+#index-button1:hover #translate1 {
+  left: 0;
+}
+
+#index-button2:hover #translate2 {
+  left: 0;
+}
+
+#index-button3:hover #translate3 {
   left: 0;
 }
 
@@ -304,7 +312,7 @@ footer {
 }
 
 .clip-text_one {
-    background-image: url("../images/backdrop.jpg");
+    background-image: url("../images/cut.jpg");
 }
 
 /* <-- BIO --> */
@@ -395,7 +403,7 @@ input[type=submit] {
    justify-content: flex-start;
    border: none;
    background-color: #ec423e;
-   color: white;
+   color: black;
 }
 
 /* <-- TRAVELPRO --> */
@@ -443,7 +451,7 @@ input[type=submit] {
 }
 
 .ux-intro p {
-  color: gray;
+  color: black;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -545,7 +553,7 @@ ul.ux-list mark {
 
 ul.fedex-list {
   margin-top: 10px;
-  list-style-type: square;
+  list-style-type: none;
   margin-left: 35px;
 }
 
@@ -589,7 +597,7 @@ ul.fedex-list mark {
 
 .flip-card-inner p {
   margin-top: 15px;
-  color: white;
+  color: black;
   background-color: #ec423e;
   padding: 7px;
 }
@@ -640,7 +648,7 @@ video {
     justify-content: center;
   }
 
-  #last {
+  .last {
     margin-top: 28px;
   }
 
@@ -718,7 +726,7 @@ video {
     justify-content: flex-end;
   }
 
-  #last {
+  .last {
     margin-top: 22px;
   }
 

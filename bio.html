@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132041826-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132041826-2');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
@@ -12,7 +23,7 @@
   <body>
     <a class="skip" href="#skip">Skip to Main Content</a>
     <nav class="topnav">
-      <a href="index.html"><img src="images/main.jpg" alt="" id="main"></a>
+      <a href="index.html"><img src="images/main.jpg" alt="Logo" id="main"></a>
       <div class="dropdown">
         <button class="dropbtn">Work <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
@@ -21,13 +32,13 @@
           <a href="gallery.html">Design Gallery</a>
         </div>
       </div>
-      <a href="bio.html" id="current" id="last">Bio</a>
-      <a href="resume.html"id="last">Resume</a>
+      <a href="bio.html" class="last" id="current">Bio</a>
+      <a href="resume.html" class="last">Resume</a>
     </nav>
     <main id="skip">
       <div class="container-bio">
         <div class="bio-image">
-          <img src="images/bio.jpg" alt=""/>
+          <img src="images/bio.jpg" alt="Headshot"/>
         </div>
         <div class="bio-text">
             <h2><mark>Hi!</mark></h2>
@@ -40,13 +51,10 @@
       <fieldset>
          <div class = "contact">
             <h1>Contact Me</h1>
-            <label for ="name">Name</label>
-            <input type="text" id ="name" name="name" required />
-            <label for ="pass">Email</label>
-            <input type="email" id="email" name ="email" required/>
-            <label for ="addr">Message</label>
-            <textarea id = "messg" placeholder="Write something.."></textarea>
-            <input type="submit" value="Submit">
+            <label for="name">Name</label><input type="text" id ="name" name="name" required/>
+            <label for="email">Email</label><input type="email" id="email" name ="email" required/>
+            <label for="message">Message</label><textarea id="messg" placeholder="Write something.."></textarea>
+            <input type="submit" value="Submit"/>
          </div>
       </fieldset>
       </form>

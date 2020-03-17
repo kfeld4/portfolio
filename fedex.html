@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132041826-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132041826-2');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
@@ -12,7 +23,7 @@
   <body>
     <a class="skip" href="#skip">Skip to Main Content</a>
     <nav class="topnav">
-      <a href="index.html"><img src="images/main.jpg" alt="" id="main"></a>
+      <a href="index.html"><img src="images/main.jpg" alt="Logo" id="main"></a>
       <div class="dropdown">
         <button class="dropbtn">Work <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
@@ -21,33 +32,33 @@
           <a href="gallery.html">Design Gallery</a>
         </div>
       </div>
-      <a href="bio.html" id="last">Bio</a>
-      <a href="resume.html"id="last">Resume</a>
+      <a href="bio.html" class="last">Bio</a>
+      <a href="resume.html" class="last">Resume</a>
     </nav>
     <main id="skip">
     <div class="container-fedex">
       <div class="fedex-cover">
-        <img src="images/sales.jpg" alt=""/>
+        <img src="images/sales.jpg" alt="FedEx Sales Learning Dashboard Banner"/>
       </div>
       <div class="fedex-process">
         <h1>Summer Initiatives</h1>
         <p>My primary project was to design a Sales Learning Dashboard, in alignment with FedEx's Moments that Matter initiative, to help both sales professionals and leadership <span class="bold">visualize their competencies in key selling skills.</span></p>
         <h1>Sales University</h1>
         <P>FedEx's learning management system, Sales U, developed a standardized sales methodology to highlight these important skills. These 112 key skills are enveloped by 4 Core Fundamentals and fall within 28 Moments that Matter that define the FedEx selling experience.</p>
-        <img src="images/MTM.jpg" alt="">
+        <img src="images/MTM.jpg" alt="Moments That Matter Initiative Framework">
         <h1>Process</h1>
         <P>The phases below outline each milestone of my project. They include designing wireframes to actualize what information and data I needed, using a user-centered design approach andconducted usability tests to get feedback on how sales would like to see the product unfold and more. </p>
         <ul class="fedex-list">
           <li><mark>Phase 1: </mark> Team Brainstorming</li>
           <li><mark>Phase 2: </mark> Adobe XD Wireframes</li>
-          <div class="fedex-wires">
+          <li><div class="fedex-wires">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <p>Professional's Dashboard</p>
                 </div>
                 <div class="flip-card-back">
-                  <img src="images/professional.jpg" alt="">
+                  <img src="images/professional.jpg" alt="Professional's Dashboard">
                 </div>
               </div>
             </div>
@@ -57,17 +68,18 @@
                   <p>Director's Dashboard</p>
                 </div>
                 <div class="flip-card-back">
-                  <img src="images/director.jpg" alt="">
+                  <img src="images/director.jpg" alt="Leadership's Dashboard">
                 </div>
               </div>
             </div>
           </div>
+          </li>
           <li><mark>Phase 3:</mark> Usability Testing</li>
           <li><mark>Phase 4: </mark> Build-out with TIBCO Spotfire, SQL Management Studio & WSSO Integration</li>
           <li><mark>Phase 5:</mark> Refining Data</li>
-          <video autobuffer="autobuffer" autoplay="autoplay" loop="loop" controls="controls">
+          <li><video autoplay="autoplay" loop="loop" controls="controls">
               <source src="images/video.mp4">
-          </video>
+          </video></li>
         </ul>
       </div>
     </div>
