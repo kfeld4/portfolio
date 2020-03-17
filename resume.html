@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132041826-2"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-132041826-2');
+     </script>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src = "js/portfolio.js"></script>
+     <title>Kevin's Portfolio</title>
+   </head>
+   <body>
+     <a class="skip" href="#skip">Skip to Main Content</a>
+     <nav class="topnav">
+       <a href="index.html"><img src="images/main.jpg" alt="Logo" id="main"></a>
+       <div class="dropdown">
+         <button class="dropbtn">Work <i class="fa fa-caret-down"></i></button>
+         <div class="dropdown-content">
+           <a href="fedex.html">FedEx Services</a>
+           <a href="ux.html">TravelPro</a>
+           <a href="gallery.html">Design Gallery</a>
+         </div>
+       </div>
+       <a href="bio.html" class="last">Bio</a>
+       <a href="resume.html" id="current" class="last">Resume</a>
+     </nav>
+     <main id="skip">
+     <div class="container-resume">
+       <iframe src="images/Resume_Feldman_Kevin.pdf" title="Resume" width="100%" height="650px">
+       </iframe>
+     </div>
+     <footer>
+       <a onclick="myScroll()"><img id="backup" src="images/backup.jpg" alt=""></a>
+       <p>Kevin Feldman - SI 339 - Personal Portfolio</p>
+     </footer>
+     </main>
+   </body>
+ </html>
