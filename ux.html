@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132041826-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132041826-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "js/portfolio.js"></script>
+    <title>Kevin's Portfolio</title>
+  </head>
+  <body>
+    <a class="skip" href="#skip">Skip to Main Content</a>
+    <nav class="topnav">
+      <a href="index.html"><img src="images/main.jpg" alt="Logo" id="main"></a>
+      <div class="dropdown">
+        <button class="dropbtn">Work <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="fedex.html">FedEx Services</a>
+          <a href="ux.html" id="current-dropdown">TravelPro</a>
+          <a href="gallery.html">Design Gallery</a>
+        </div>
+      </div>
+      <a href="bio.html" class="last">Bio</a>
+      <a href="resume.html" class="last">Resume</a>
+    </nav>
+    <main id="skip">
+    <div class="container-ux">
+      <div class="parallax"></div>
+      <div class="ux-intro">
+        <img src="images/travel.jpg" alt="Man Traveling with TravelPro Logo"/>
+        <div class="ux-course">
+          <h1>Course</h1>
+          <p>SI 482: Introduction to Interaction Design (Group Project)</p>
+        </div>
+        <div class="ux-skills">
+          <h1>Skills</h1>
+          <p>User Research / Usability Testing / Wireframing / Prototyping</p>
+        </div>
+        <div class="ux-tools">
+          <h1>Tools</h1>
+          <p>Figma / Sketch / Photoshop / Illustrator</p>
+        </div>
+      </div>
+      <div class="ux-process">
+        <h1>Overview</h1>
+        <p>When planning a trip, it is hard to figure out what sites to see, restaurants to dine at, and the order and route to conduct these activities most efficiently. With Travel Pro, <span class="bold">we hope to solve these hard-to-tackle intricacies and help inexperienced travelers perfect their itineraries.</span> We allow them to personalize and share their experiences and influence others’ travels in the future.</p>
+        <img src="images/replacing.jpg" alt="Design Mockups of App">
+        <h1>Solution + Features</h1>
+        <p>This app can be used by anyone. A user can be a 21-year-old traveling inexpensively by himself or a family of 5 traveling around the world with a considerable budget. With our app, users can create their perfect itinerary. <span class="bold">They input their preferences, such as dates, budget and previous reservations to integrate, and receive a day-by-day itinerary that satisfies all of their travel needs.</span> Users can also edit their itinerary to change various activities and timings. There is also a social element to Travel Pro as users can share their itinerary on social media, such as Facebook and Instagram, or on our very own “Itinerary Newsfeed.”</p>
+        <ul class="ux-list">
+          <li><mark>Browse</mark> through other’s itineraries</li>
+          <li><mark>Favorite</mark> and gain inspiration from similar travels</li>
+          <li><mark>Edit</mark> previous plans based on other’s plans</li>
+        </ul>
+        <div class="button" id="ux-button">
+          <div class="translate"></div>
+          <a href="https://www.figma.com/proto/Dhs2wFqevny38oXJ6dY75j/si-482?node-id=240%3A11&scaling=scale-down" target="_blank">View Prototype</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a onclick="myScroll()"><img id="backup" src="images/backup.jpg" alt=""></a>
+      <p>Kevin Feldman - SI 339 - Personal Portfolio</p>
+    </footer>
+    </main>
+  </body>
+</html>
